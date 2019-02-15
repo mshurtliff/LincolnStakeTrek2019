@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.salinatrek.org	TRUE	/	FALSE	1999999999	CFID	90720929
+www.salinatrek.org	TRUE	/	FALSE	1999999999	CFTOKEN	559e9a750429694f-3C07F1EC-BC1A-3F07-4D9580550EEF3AEB
+www.salinatrek.org	TRUE	/	FALSE	1999999999	JSESSIONID	0a30b0846827275e0d80612b637f171867e7
+

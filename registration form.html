@@ -97,8 +97,17 @@
         	</tr>
             
             <tr>
-        		<td id="content">
-<table style=width:"content">
+        		<td >
+				<p id =instuctions style=width:950px>Instructions:  Create a Trek Family!  Talk with your family, friends, Ward members, etc and organize a Trek Family just like you were a Pioneer.  Families can be a range from 1 to 22 individuals to include adults, youth, and children.  Create a Family Name and fill out the information below for each family member and either hit submit in Adobe Acrobat or take a picture with your phone and email it to mshurtliff@gmail.com or text it to 208-557-3631.  Each Family should have one or two designated family leaders that must be over the age of 21.  Youth group families are required to have at least 2 adults participate as family leaders (i.e. Married Couple for coed youth groups, 2 male adults for YM groups, 2 female adults for YW groups).  Youth younger than 11 need to have a parent or guardian participate with them.  Once all families are registered, Families will be organized into 'Companies' for the purpose of camping, cooking, and spiritual activities.
+
+Participation is encouraged for all ages and abilities.  There will be different levels of trail difficulty to choose from (Easy, Medium, Difficult), there will be fun learning activities including a square dance and a carnival.  You will come away feeling closer to your Pioneer Ancestors or those that have sacraficed so much.  Partial Day Participants are also welcome (Please note what days you will be there if not staying the whole time).  Volunteers are also needed, if you want to volunteer in some way, please e-mail or text the number above.</p>
+<form name="submit-to-google-sheet">
+
+<table width="1000px"
+	<td>Please Enter Pioneer Family or Group Name: <input name="FamilyName" type="text" placeholder="Pioneer Family Name" required></td>
+</table>
+
+<table width="1000px">
 	<thead>
 		<tr>
 			<th>Name</th>
@@ -109,200 +118,429 @@
 			<th>Allergies or Disabilities</th>
 		</tr>
 	</thead>
+
 	<tbody>
-		<tr><td>Family Leaders</td></tr>
+		<tr><td style=font-weight:bold>Family Leaders</td></tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			
+			<td><input name="Leader1FullName" type="text" placeholder="1 Full Name" required></td>
+			<td><input name="Leader1Email" type="email" placeholder="Email" required></td>
+			<td><input name="Leader1Cell" type="tel" placeholder="Cell#" required></td>
+			<td><input name="Leader1DoB" type="date" placeholder="Date of Birth" required></td>
+			<td><select name="Leader1Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Leader1Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Leader2FullName" type="text" placeholder="2 Full Name"></td>
+			<td><input name="Leader2Email" type="email" placeholder="Email" ></td>
+			<td><input name="Leader2Cell" type="tel" placeholder="Cell#" ></td>
+			<td><input name="Leader2DoB" type="date" placeholder="Date of Birth" ></td>
+			<td><select name="Leader2Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Leader2Info" type="text" placeholder="Medical Info"></td>
 		</tr>
-		<tr><td>Family Members</td></tr>
+		<tr></tr>
+		<tr><td style=font-weight:bold>Family Members</td></tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
-		</tr>
-		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
-		</tr>
-		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
-		</tr>
-		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member1FullName" type="text" placeholder="1 Full Name"  ></td>
+			<td><input name="Member1Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member1Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member1DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member1Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member1Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member2FullName" type="text" placeholder="2 Full Name"  ></td>
+			<td><input name="Member2Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member2Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member2DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member2Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member2Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member3FullName" type="text" placeholder="3 Full Name"  ></td>
+			<td><input name="Member3Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member3Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member3DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member3Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member3Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member4FullName" type="text" placeholder="4 Full Name"  ></td>
+			<td><input name="Member4Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member4Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member4DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member4Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member4Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member5FullName" type="text" placeholder="5 Full Name"  ></td>
+			<td><input name="Member5Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member5Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member5DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member5Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member5Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member6FullName" type="text" placeholder="6 Full Name"  ></td>
+			<td><input name="Member6Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member6Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member6DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member6Ward">
+			<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member6Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member7FullName" type="text" placeholder="7 Full Name"  ></td>
+			<td><input name="Member7Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member7Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member7DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member7Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member7Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member8FullName" type="text" placeholder="8 Full Name"  ></td>
+			<td><input name="Member8Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member8Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member8DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member8Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member8Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member9FullName" type="text" placeholder="9 Full Name"  ></td>
+			<td><input name="Member9Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member9Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member9DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member9Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member9Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member10FullName" type="text" placeholder="10 Full Name"  ></td>
+			<td><input name="Member10Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member10Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member10DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member10Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member10Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member11FullName" type="text" placeholder="11 Full Name"  ></td>
+			<td><input name="Member11Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member11Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member11DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member11Ward">
+			<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member11Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member12FullName" type="text" placeholder="12 Full Name"  ></td>
+			<td><input name="Member12Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member12Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member12DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member12Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member12Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member13FullName" type="text" placeholder="13 Full Name"  ></td>
+			<td><input name="Member13Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member13Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member13DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member13Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member13Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member14FullName" type="text" placeholder="14 Full Name"  ></td>
+			<td><input name="Member14Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member14Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member14DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member14Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member14Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member15FullName" type="text" placeholder="15 Full Name"  ></td>
+			<td><input name="Member15Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member15Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member15DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member15Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member15Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
+			<td><input name="Member16FullName" type="text" placeholder="16 Full Name"  ></td>
+			<td><input name="Member16Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member16Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member16DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member16Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member16Info" type="text" placeholder="Medical Info"></td>
 		</tr>
 		<tr>
-			<td><input name="Name" type="text" placeholder="Name" required></td>
-			<td><input name="email" type="email" placeholder="Email" required></td>
-			<td><input name="cell phone" type="text" placeholder="Phone#"></td>
-			<td><input name="Birth Date" type="text" placeholder="Birth Date"></td>
-			<td><input name="Ward" type="text" placeholder="Ward"></td>
-			<td><input name="Allergies or Disabilities" type="text" placeholder="Allergies"></td>
-		</tr><
-		<tr><td><button type="submit">Send</button></td></tr>
+			<td><input name="Member17FullName" type="text" placeholder="17 Full Name"  ></td>
+			<td><input name="Member17Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member17Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member17DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member17Ward">
+			<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member17Info" type="text" placeholder="Medical Info"></td>
+		</tr>
+		<tr>
+			<td><input name="Member18FullName" type="text" placeholder="18 Full Name"  ></td>
+			<td><input name="Member18Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member18Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member18DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member18Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member18Info" type="text" placeholder="Medical Info"></td>
+		</tr>
+		<tr>
+			<td><input name="Member19FullName" type="text" placeholder="19 Full Name"  ></td>
+			<td><input name="Member19Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member19Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member19DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member19Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member19Info" type="text" placeholder="Medical Info"></td>
+		</tr>
+		<tr>
+			<td><input name="Member20FullName" type="text" placeholder="20 Full Name"  ></td>
+			<td><input name="Member20Email" type="email" placeholder="Email"  ></td>
+			<td><input name="Member20Cell" type="tel" placeholder="Cell#"  ></td>
+			<td><input name="Member20DoB" type="date" placeholder="Date of Birth"  ></td>
+			<td><select name="Member20Ward">
+				<option value=""></option>
+				<option value="Bridgewater">Bridgewater Ward</option>
+				<option value="East View">East View Ward</option>
+				<option value="Lincoln 1st">Lincoln 1st Ward</option>
+				<option value="Lincoln 2nd">Lincoln 2nd Ward</option>
+				<option value="Lincoln 3rd">Lincoln 3rd Ward</option>
+				<option value="Sand Creek 2nd">Sand Creek 2nd Ward</option>
+				<option value="Sand Creek 3rd">Sand Creek 3rd Ward</option>
+				<option value="Mesa Branch">Mesa Branch</option>
+			</select></td>
+			<td><input name="Member20Info" type="text" placeholder="Medical Info"></td>
+		</tr>
+		<tr><td>
+		<button type="submit">Send</button>
+		<input type="reset">
+		</td></tr>
 	</tbody>
 </table>
-		
-<form name="submit-to-google-sheet">
-  <input name="Name" type="text" placeholder="Name" required>
-  <input name="email" type="email" placeholder="Email" required>
-  <input name="cell phone" type="text" placeholder="Phone#">
-  <input name="Birth Date" type="text" placeholder="Birth Date">
-  <input name="Ward" type="text" placeholder="Ward">
-  <input name="Allergies or Disabilities" type="text" placeholder="Allergies">
-  <button type="submit">Send</button>
 </form>
+		
 
-    
+    <!https://script.google.com/macros/s/AKfycbwyWIO2jZZGR3HUh6vvBU9dDDYc_uQL9fw4MvXwr4Gm6io2MCI/exec>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwyWIO2jZZGR3HUh6vvBU9dDDYc_uQL9fw4MvXwr4Gm6io2MCI/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(confirm("Information Sent"))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>	
      
         	<tr>
         		<td id="footer">

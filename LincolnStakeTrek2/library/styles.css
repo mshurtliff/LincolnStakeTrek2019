@@ -45,6 +45,9 @@ img { border: 0; }
     float:right;
     position:relative;
 }
+#instructions {
+	width:1000px;
+	border:2px double;
 
 #topnav ul li a {
     font: bold 14px arial;
